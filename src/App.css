@@ -1,0 +1,184 @@
+/* #root {
+  
+}
+
+.logo {
+  height: 6em;
+
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+} */
+/* navbar component */
+/* navbar component */
+body{
+  box-sizing: border-box;
+}
+.flexNav {
+  
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+.flexNav div{
+  justify-content: space-between;
+}
+/* Most Popular component */
+.carslist{
+ width: 70%;
+ margin: 0 auto;
+}
+.card-text{
+  font-size: small;
+}
+.mostpopbutton{
+  text-align: center;
+}
+.headertxt{
+  margin-top: 50px;
+  padding: 20%;
+}
+.headertxt h1{
+  font-weight: bolder;
+}
+.header{
+  background-image: url('../../cars/src/assets/imgs/bgfram.png');
+  background-position: right;            
+  background-repeat: no-repeat;         
+background-size:contain;
+ 
+}
+.sliderImg{
+  width: 100%;
+  animation-duration: 2s;
+  animation-name: slideranimation;
+float: right;
+}
+@keyframes slideranimation{
+  0%{width: 20%;}
+  25%{width: 60%}
+  50%{width: 80%;}
+  100%{width: 100%;}
+}
+/* how it works */
+.iconstyle{
+  color: rgba(21, 114, 211);
+  background: rgba(21, 114, 211, 0.1);
+  font-size: 40px;
+  padding: 32px;
+  border-radius: 15px;
+}
+.howitworksrow{
+width: 90%;
+text-align: center;
+padding-left: 15%;
+}
+.howItWorks p{
+  font-size: 13px;
+}
+.parteners{
+  padding: 5%;
+}
+.parteners img{
+  width: 70%;
+}
+/* why choose us */
+.whyImge{
+  background-image: url('../../cars//src//assets/imgs/Untitled.png');
+  background-position: left;
+  padding-top: 45%;
+  padding-bottom: 45%;
+  left: 0;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.whyrow i{
+  color: rgba(21, 114, 211);
+  background: rgba(21, 114, 211, 0.1);
+  font-size: 20px;
+  padding: 5%;
+  text-align: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 15px;
+}
+
+/* test imonials */
+.testimonials button{
+  text-align: center;
+  width: 20%;
+  margin: 0 auto;
+}
+.testimonials{
+padding-top: 50px;
+padding-bottom: 50px;
+  background: rgba(247, 251, 255, 1);
+ 
+} 
+
+/* booking */
+.iphon{
+  width:55%;
+  padding-top: 20%;
+bottom: 0;
+}
+.booking input{
+  background-color: #CEDCFF;
+  width:50%;
+  border-radius: 5px;
+}
+/* footer */
+.footer{
+  background-color: #051c34;
+  color: white;
+  padding: 5% 10%;
+  font-size: small;
+  font-weight: lighter;
+}
+/* Details */
+.detailsImg{
+  width: 85%;
+  animation-duration: 1.5s;
+  animation-name: detailsanimation;
+
+background-image: url('../../cars//src//assets/imgs/Untitled.png');
+background-position: right;
+padding-top: 20%;
+padding-bottom: 20%;
+left: 0;
+background-repeat: no-repeat;
+background-size: contain;
+}
+@keyframes detailsanimation{
+  0%{width: 20%;}
+  25%{width: 60%}
+  50%{width: 75%;}
+  100%{width: 85%;}
+}
