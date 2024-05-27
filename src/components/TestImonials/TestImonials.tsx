@@ -1,7 +1,5 @@
-import React from 'react'
-import img1 from '../../assets/imgs/girl.png'
-import img2 from '../../assets/imgs/bgtest.png'
 import img3 from '../../assets/imgs/Rectangle 8 (1).png'
+import img1 from '../../assets/imgs/girl.png'
 
 export default function TestImonials() {
   return (

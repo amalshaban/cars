@@ -6,6 +6,7 @@ import Details from './components/Details/Details'
 import Home from './components/Home/Home'
 import MasterLayout from './components/MasterLayout/MasterLayout'
 import NotFound from './components/NotFound/NotFound'
+import AllViechles from './components/AllViechles/AllViechles'
 
 function App() {
   let routes = createBrowserRouter([  
@@ -16,7 +17,7 @@ function App() {
       {index: true, element: <Home/>},
       {path: 'Home', element: <Home/>},
       {path: 'Details/:carId', element: <Details/>},
-      
+      {path: 'AllViechles', element: <AllViechles />},
     ]
     }
   ]);

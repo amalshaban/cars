@@ -1,4 +1,4 @@
-import React from 'react'
+
 import img from '../../assets/imgs/Audi 1.png'
 export default function WhyChooseUs() {
   return (

@@ -1,7 +1,5 @@
 
-import React from 'react';
-import { useSpring, animated } from '@react-spring/web';
-import slidecar from '../../assets/imgs/car 2 1.png'
+import slidecar from '../../assets/imgs/car 2 1.png';
 
 
 export default function Slider() {

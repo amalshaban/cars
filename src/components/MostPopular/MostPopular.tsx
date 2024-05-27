@@ -1,8 +1,7 @@
-import React, { useEffect, useState, useRef } from 'react'
-import axios from 'axios'
-import img3 from '../../assets/imgs/car3.png'
+import axios from 'axios';
+import { useEffect, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import SomeViechles from '../SomeViechles/SomeViechles';
-import Details from '../Details/Details';
 
 export default function MostPopular() {
   function getInputValue(elementId: string): string {
@@ -24,13 +23,16 @@ export default function MostPopular() {
   const getCarsList = async(request:any)=>{
      let response = await axios.get(request);
      setCarsList(response.data);
-    
-     
   }
   useEffect(() => {
     getCarsList(requestLimit);
   }, []);
 
+
+  const navigate = useNavigate();
+  const handleClick = () => {
+      navigate('/AllViechles');  
+  };
 
 
 
@@ -62,7 +64,10 @@ export default function MostPopular() {
  </div>
      </div>
      <div className='col-12 text-center m-4'>
-          <button onClick={() =>getCarsList(requestAll)} className='btn btn-outline-primary pe-5 ps-5'>show all veichles <i className="fa-solid fa-arrow-right"></i></button>
+          <button onClick={handleClick} className='btn btn-outline-primary pe-5 ps-5'>
+            show all veichles 
+            <i className="fa-solid fa-arrow-right"></i>
+          </button>
         </div>
     </div>
 

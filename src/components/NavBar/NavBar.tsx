@@ -1,5 +1,4 @@
-import React from 'react';
-import 'E:/react course/cars/node_modules/bootstrap/dist/css/bootstrap.min.css';
+
 import logo from '../../assets/imgs/logo.png';
 
 
