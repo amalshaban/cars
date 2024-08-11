@@ -1,7 +1,4 @@
-
 import logo from '../../assets/imgs/logo.png';
-
-
 export default function NavBar() {
   return (
    <>

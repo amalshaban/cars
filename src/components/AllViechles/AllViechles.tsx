@@ -62,7 +62,7 @@ export default function AllViechles() {
 <div className='row p-5'>
 
  {
-   carsList.map((car:object)=>(
+   carsList.map((car:any)=>(
      <SomeViechles key={car.id}  car = {car} />
      
    ))
